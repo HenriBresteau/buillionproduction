@@ -1,0 +1,17 @@
+body {
+  font-family: "Montserrat";
+  font-size: 120px;
+  background: #fdfdfd;
+}
+
+.container {
+  padding: 0 32px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding: 0 24px;
+  }
+}
